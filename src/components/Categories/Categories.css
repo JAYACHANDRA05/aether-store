@@ -1,0 +1,140 @@
+.categories {
+  padding: 80px 70px;
+  background: var(--bg-primary);
+  transition: background 0.3s ease;
+}
+
+.categories h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: var(--text-primary);
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.category-card {
+  background: var(--bg-secondary);
+  padding: 50px 20px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid transparent;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-color);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  font-size: 60px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .categories {
+    padding: 60px 40px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .categories {
+    padding: 50px 20px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories h2 {
+    font-size: 32px;
+  }
+}
+.categories {
+  padding: 80px 70px;
+  background: var(--bg-primary);
+  transition: background 0.3s ease;
+}
+
+.categories h2 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: var(--text-primary);
+}
+
+.category-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.category-card {
+  background: var(--bg-secondary);
+  padding: 50px 20px;
+  border-radius: 16px;
+  text-align: center;
+  cursor: pointer;
+  transition: 0.3s;
+  border: 2px solid transparent;
+  text-decoration: none;
+  display: block;
+}
+
+.category-card:hover {
+  transform: translateY(-10px);
+  border-color: var(--accent-color);
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.category-icon {
+  font-size: 60px;
+  color: var(--accent-color);
+  margin-bottom: 20px;
+}
+
+.category-card h3 {
+  font-size: 24px;
+  color: var(--text-primary);
+}
+
+@media (max-width: 900px) {
+  .categories {
+    padding: 60px 40px;
+  }
+
+  .category-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 600px) {
+  .categories {
+    padding: 50px 20px;
+  }
+
+  .category-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .categories h2 {
+    font-size: 32px;
+  }
+}

@@ -1,0 +1,9 @@
+.home-page {
+  width: 100%;
+  overflow: hidden;
+}
+
+
+.app.dark .home-page {
+  background: #101010;
+}

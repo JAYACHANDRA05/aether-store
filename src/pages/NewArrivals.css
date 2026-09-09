@@ -1,0 +1,50 @@
+.new-arrivals-page {
+  padding: 80px 70px;
+  background: #f8f8f8;
+  min-height: calc(100vh - 80px);
+}
+
+.new-arrivals-page h1 {
+  text-align: center;
+  font-size: 42px;
+  margin-bottom: 50px;
+  color: #222;
+}
+
+.new-arrivals-grid {
+  max-width: 1400px;
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 30px;
+}
+
+.app.dark .new-arrivals-page {
+  background: #101010;
+}
+
+.app.dark .new-arrivals-page h1 {
+  color: white;
+}
+
+@media (max-width: 1100px) {
+  .new-arrivals-grid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+@media (max-width: 800px) {
+  .new-arrivals-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (max-width: 500px) {
+  .new-arrivals-page {
+    padding: 50px 20px;
+  }
+
+  .new-arrivals-grid {
+    grid-template-columns: 1fr;
+  }
+}
